@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a New Style Sheet</title>
+	<meta charset="utf-8" />
+    <script>
+        var sheet = (function () {
+            var style = document.createElement("style");
+            style.appendChild(document.createTextNode(""));
+            document.head.appendChild(style);
+            return style.sheet;
+        })();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
